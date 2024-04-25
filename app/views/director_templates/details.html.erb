@@ -1,3 +1,4 @@
+
 <h1>Director #<%= @the_director.id %> details</h1>
 
 <a href="/directors">Go back</a>
@@ -46,6 +47,6 @@
     <td><%= a_movie.year %></td>
     <td><%= @the_director.name %></td>
     <td>
-      <a href="/movie/<%= a_movie.id %>">Show details</a></td>
+      <a href="/movies/<%= a_movie.id %>">Show details</a></td>
   </tr>
 <% end %>
